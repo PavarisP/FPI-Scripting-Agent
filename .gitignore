@@ -1,0 +1,16 @@
+# Workspace
+*.code-workspace
+.vscode/
+.idea/
+*.sln
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temp
+*.log
+*.tmp
