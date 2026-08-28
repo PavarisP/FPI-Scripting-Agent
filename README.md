@@ -32,6 +32,7 @@ This repository is a complete reference for the FPI scripting language, designed
 | 21 | `21-Engine-Overview.md` | FPSC directory structure, entity system, trigger types, prefabs |
 | 22 | `22-Melee-Enemy-Patterns.md` | Melee NPC patterns: chase, attack approach, hit detection, animation frames |
 | 23 | `23-DarkAI-Conversion-Guide.md` | How to convert legacy AI scripts to DarkAI |
+| 24 | `24-FPSC-Installation-Reference.md` | Actual FPSC install structure, asset counts, path conventions |
 
 ## How FPI Scripts Work (30-Second Summary)
 
