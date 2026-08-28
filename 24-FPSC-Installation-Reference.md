@@ -1,11 +1,11 @@
 # FPSC Installation Reference
 
-This file documents the actual FPSC installation at `D:\Software\FPS Creator\Files`. Use these paths and counts when generating code, scripts, or referencing assets.
+This file documents the FPSC `Files/` directory structure. The root `Files/` is where FPS Creator is installed — the drive path varies per user (e.g. `C:\Program Files\FPS Creator\Files`, `D:\Software\FPS Creator\Files`, etc.). All paths below are relative to `Files/`.
 
 ## Directory Structure & Asset Counts
 
 ```
-D:\Software\FPS Creator\Files\
+Files/
 ├── audiobank/          # 439 .wav files (sound effects + music)
 ├── cubemaps/           # Environment cubemaps for reflections
 ├── databank/           # 31 files (core game data, HUD icons, radar)
