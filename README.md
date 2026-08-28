@@ -34,6 +34,10 @@ This repository is a complete reference for the FPI scripting language, designed
 | 23 | `23-DarkAI-Conversion-Guide.md` | How to convert legacy AI scripts to DarkAI |
 | 24 | `24-FPSC-Installation-Reference.md` | Actual FPSC install structure, asset counts, path conventions |
 
+## Setup
+
+Before using the agent, configure your FPSC `Files\` directory path in `00-FPI-Syntax-Basics.md` — look for the "Root Directory Configuration" section at the bottom of the file and set it to your installation path (e.g. `C:\Program Files (x86)\The Game Creators\FPS Creator\Files`).
+
 ## How FPI Scripts Work (30-Second Summary)
 
 ```
