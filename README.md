@@ -64,4 +64,6 @@ This repo includes a `.kilo/` config (Kilo AI) with the following slash commands
 | `/fpi-convert-darkai` | Show DarkAI conversion guide |
 | `/fpi-engine` | Show FPSC engine overview |
 
-Use `@fpi-assistant` in Kilo to ask questions about any FPI scripting topic.
+Use the default `code` agent to ask questions about any FPI scripting topic — it will read the reference files automatically.
+
+A pre-configured `fpi-assistant` agent is available in `.kilo/agents/fpi-assistant.md` if you want to use it. Add it to your `kilo.json` under `"agent"` to enable it.
