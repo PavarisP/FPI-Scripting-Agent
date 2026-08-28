@@ -2,7 +2,7 @@
 
 **FPS Creator Intelligence (.fpi)** scripts are plain-text state-machine files that control every entity, zone, pickup, door, light, NPC, and gameplay mechanic in FPS Creator levels.
 
-This repository is a complete reference for the FPI scripting language, designed to be used as a knowledge base for AI coding agents.
+This repository is a complete reference for the FPI scripting language, designed to be used as a knowledge base for AI coding agents. Optimized for [Kilo](https://kilo.ai) with `.kilo/` commands and agent config, but works with any AI tool — just point your agent at the markdown files.
 
 ## Reference Files
 
@@ -52,7 +52,7 @@ desc = Short description
 
 ## Kilo Commands
 
-This repo includes a `.kilo/` config with the following slash commands:
+This repo includes a `.kilo/` config (Kilo AI) with the following slash commands — but you can use any agent or IDE you like:
 
 | Command | Description |
 |---------|-------------|
