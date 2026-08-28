@@ -107,3 +107,13 @@ desc          = Do Nothing (Empty)
 - Forgetting `state=N` in a state-based rule (rule won't match)
 - Using `=` instead of `=` (e.g., `plrdistwithin=100` not `plrdistwithin==100`)
 - Trailing commas on action lists
+
+## Root Directory Configuration
+
+Change this to your FPS Creator `Files\` directory:
+
+```
+Directory=C:\Program Files (x86)\The Game Creators\FPS Creator\Files
+```
+
+This is used by AI agents to know where to read/write FPI scripts and reference assets. The directory contains all the subdirectories documented in `24-FPSC-Installation-Reference.md`.

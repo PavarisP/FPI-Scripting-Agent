@@ -8,7 +8,7 @@ This repository is a complete reference for the FPI scripting language, designed
 
 | # | File | Topic |
 |---|------|-------|
-| 00 | `00-FPI-Syntax-Basics.md` | File structure, trigger-action syntax, state machines |
+| 00 | `00-FPI-Syntax-Basics.md` | File structure, trigger-action syntax, state machines, root directory config |
 | 01 | `01-Conditions-Reference.md` | Complete list of all condition keywords |
 | 02 | `02-Actions-Reference.md` | Complete list of all action keywords |
 | 03 | `03-Variables-and-Params.md` | Global/local variables, parameter slots ($0, $1), interpolation |
