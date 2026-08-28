@@ -55,19 +55,4 @@ desc = Short description
 6. `$0`, `$1` are parameter slots filled in the FPSC entity editor
 7. `activateifused=1` links entities together (IFUSED field in editor)
 
-## Kilo Commands
-
-This repo includes a `.kilo/` config (Kilo AI) with the following slash commands — but you can use any agent or IDE you like:
-
-| Command | Description |
-|---------|-------------|
-| `/fpi-syntax` | Show FPI syntax basics |
-| `/fpi-cheatsheet` | Show the FPI scripting cheat sheet |
-| `/fpi-darkai` | Show DarkAI system reference |
-| `/fpi-melee` | Show melee enemy patterns |
-| `/fpi-convert-darkai` | Show DarkAI conversion guide |
-| `/fpi-engine` | Show FPSC engine overview |
-
 Use the default `code` agent to ask questions about any FPI scripting topic — it will read the reference files automatically.
-
-A pre-configured `fpi-assistant` agent is available in `.kilo/agents/fpi-assistant.md` if you want to use it. Add it to your `kilo.json` under `"agent"` to enable it.
