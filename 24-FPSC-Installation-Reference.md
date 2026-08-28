@@ -6,57 +6,57 @@ This file documents the FPSC `Files/` directory structure. The root `Files/` is 
 
 ```
 Files/
-├── audiobank/          # 439 .wav files (sound effects + music)
-├── cubemaps/           # Environment cubemaps for reflections
-├── databank/           # 31 files (core game data, HUD icons, radar)
-├── EAI/                # Enhanced AI hand maps
-├── editors/            # Editor config (advanced.ini, currentversion.ini)
-├── effectbank/         # 402 .fx shader files
-│   ├── postprocess/    # 42 post-processing shaders
-│   ├── common/         # Shared shader includes
-│   ├── bump/           # Bump/normal mapping
+├── audiobank/          (439 .wav files — sound effects + music)
+├── cubemaps/           (environment cubemaps for reflections)
+├── databank/           (31 files — core game data, HUD icons, radar)
+├── EAI/                (Enhanced AI hand maps)
+├── editors/            (editor config: advanced.ini, currentversion.ini)
+├── effectbank/         (402 .fx shader files)
+│   ├── postprocess/    (42 post-processing shaders)
+│   ├── common/         (shared shader includes)
+│   ├── bump/           (bump/normal mapping)
 │   ├── phong_bump_specular/
 │   ├── physically based shading/
 │   ├── cubemap/
 │   ├── weapon_shaders/
-│   ├── ps_2_0/         # Pixel shader 2.0
-│   └── ps_3_0/         # Pixel shader 3.0
-├── entitybank/         # 4,309 .fpe entity definition files
-│   ├── _markers/       # Player start, trigger zones, light markers
-│   ├── triggers/       # 80+ trigger entity types
-│   ├── common/         # Invisible walls, pathfinding
-│   ├── Characters/     # NPC characters
+│   ├── ps_2_0/         (pixel shader 2.0)
+│   └── ps_3_0/         (pixel shader 3.0)
+├── entitybank/         (4,309 .fpe entity definition files)
+│   ├── _markers/       (player start, trigger zones, light markers)
+│   ├── triggers/       (80+ trigger entity types)
+│   ├── common/         (invisible walls, pathfinding)
+│   ├── Characters/     (NPC characters)
 │   ├── ww2/
 │   ├── scifi/
 │   └── ... (50+ packs)
-├── gamecore/           # Core game assets
-│   ├── backdrops/      # Menu backgrounds
-│   ├── brass/          # Shell casing models
+├── gamecore/           (core game assets)
+│   ├── backdrops/      (menu backgrounds)
+│   ├── brass/          (shell casing models)
 │   ├── bulletholes/
 │   ├── debris/
-│   ├── decals/         # 112 decal effect types
-│   ├── flak/           # Camera system
-│   ├── guns/           # 21 weapon sets
-│   ├── huds/           # HUD textures & layouts
-│   ├── muzzleflash/    # 19 muzzle flash textures
-│   └── text/           # Prompt text overlays
-├── GUI-X9/             # 5 .fpi scripts (menu system)
-│   ├── setuplevel.fpi  # In-game HUD + pause menu
-│   ├── titlepage.fpi   # Main menu
-│   ├── loadingpage.fpi # Loading screen
-│   ├── gameover.fpi    # Death screen
-│   └── gamewon.fpi     # Victory screen
-├── languagebank/       # Localization (6 languages: EN, FR, DE, IT, ES, DE)
-├── levelbank/          # Compiled levels (.zip)
-├── mapbank/            # 222 .fpm level files
-├── meshbank/           # 3,690 .x mesh files (29 theme packs)
-├── prefabs/            # 34 .fpp prefab templates
-├── scriptbank/         # 1,145 .fpi scripts (the main focus)
-├── segments/           # Segment geometry (.bin, .bmp, .db, .dbo, .dds, .fps, .jpg, .png, .txt, .x)
-├── skybank/            # 118 .dds skybox textures (13 theme packs)
-├── texturebank/        # 3,732 .dds texture files (35 theme packs)
-├── videobank/          # 10 cutscene videos
-└── water/              # Water plane assets
+│   ├── decals/         (112 decal effect types)
+│   ├── flak/           (camera system)
+│   ├── guns/           (21 weapon sets)
+│   ├── huds/           (HUD textures & layouts)
+│   ├── muzzleflash/    (19 muzzle flash textures)
+│   └── text/           (prompt text overlays)
+├── GUI-X9/             (5 .fpi scripts — menu system)
+│   ├── setuplevel.fpi  (in-game HUD + pause menu)
+│   ├── titlepage.fpi   (main menu)
+│   ├── loadingpage.fpi (loading screen)
+│   ├── gameover.fpi    (death screen)
+│   └── gamewon.fpi     (victory screen)
+├── languagebank/       (localization — 6 languages)
+├── levelbank/          (compiled levels .zip)
+├── mapbank/            (222 .fpm level files)
+├── meshbank/           (3,690 .x mesh files, 29 theme packs)
+├── prefabs/            (34 .fpp prefab templates)
+├── scriptbank/         (1,145 .fpi scripts)
+├── segments/           (segment geometry: .bin, .bmp, .db, .dbo, .dds, .fps, .jpg, .png, .txt, .x)
+├── skybank/            (118 .dds skybox textures, 13 theme packs)
+├── texturebank/        (3,732 .dds texture files, 35 theme packs)
+├── videobank/          (10 cutscene videos)
+└── water/              (water plane assets)
 ```
 
 ## Scriptbank Categories
